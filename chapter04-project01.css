@@ -1,9 +1,71 @@
 /* general text formatting */
 
 h1, h2, h3, nav, footer {
- font-family: Georgia, Cambria, "Times New Roman", serif;
+    font-family: Georgia, Cambria, "Times New Roman", serif;
 }
+
 body {
-   font-family: "Lucida Sans", Verdana, Arial, sans-serif;
-   font-size: 100%;
+    font-family: "Lucida Sans", Verdana, Arial, sans-serif;
+    font-size: 100%;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 75px;
+}
+
+caption {
+    background-color: lightseagreen;
+}
+
+td {
+    border-style: ridge;
+    border-width: 1px;
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+tr:first-child {
+    font-size: 70%;
+    text-align: center;
+}
+
+form {
+    margin-top: 1em;
+    margin-bottom: 5em;
+    margin-left: 45em;
+    margin-right: 45em;
+    background-color: tan;
+    font-weight: bold;
+    padding: .5em;
+}
+
+p {
+    padding: 4px;
+}
+
+caption {
+    padding: 2px;
+}
+
+td:hover {
+    color: white;
+    background-color: aqua;
+}
+
+.left {
+    float: left;
+    text-align: left;
+    font-size: 75%;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.right {
+    float: right;
+    text-align: right;
+    font-size: 75%;
+    padding-top: 3px;
+    padding-bottom: 3px;
 }
